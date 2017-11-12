@@ -1,21 +1,28 @@
 @import url('https://fonts.googleapis.com/css?family=Rozha+One');
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display');
 
+* {
+    font-family: 'Playfair Display', serif;
+    color: #A637B2;
+}
+
 html {
     background-color: #F5CF7A;
-    color: #A637B2;
     margin: 2em 4em;
     padding: 3em;
-    font-family: 'Playfair Display', serif;
+}
+
+body {
+    /*-webkit-column-count: 2;*/
 }
 
 .cafe {
     opacity: 0.8;
-    border-width: 0.2em;
+    border-width: 2%;
     border-style: dotted;
     border-color: #3FCCA7;
     margin: 2em;
-    padding: 2em;
+    padding: 3% 5%;
     background-color: rgba(161, 178, 174, 0.3);
 }
 
@@ -30,8 +37,8 @@ h1 {
 }
 
 h2 {
-    margin: 0em;
-    padding: 0.4em 0em;
+    margin: 0%;
+    padding: 2% 0%;
     font-family: 'Rozha One', serif;
     font-size: 2.5em;
 }
