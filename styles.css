@@ -4,16 +4,21 @@
 * {
     font-family: 'Playfair Display', serif;
     color: #A637B2;
+    align: center;
 }
 
 html {
     background-color: #F5CF7A;
-    margin: 2em 4em;
-    padding: 3em;
+    margin: 2%;
+    padding: 1% 3%;
 }
 
-body {
-    /*-webkit-column-count: 2;*/
+section {
+    -webkit-column-count: 2;
+}
+
+.cafes-list {
+    display: inline-block;
 }
 
 .cafe {
