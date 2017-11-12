@@ -4,21 +4,13 @@
 * {
     font-family: 'Playfair Display', serif;
     color: #A637B2;
-    align: center;
+    -webkit-align-content: center;
 }
 
 html {
     background-color: #F5CF7A;
-    margin: 2%;
+    margin: 2% 4%;
     padding: 1% 3%;
-}
-
-section {
-    -webkit-column-count: 2;
-}
-
-.cafes-list {
-    display: inline-block;
 }
 
 .cafe {
@@ -50,6 +42,8 @@ h2 {
 
 h3 {
     font-family: 'Rozha One', serif;
+    padding: 0;
+    margin: 0.5em 0em;
 }
 
 img {
@@ -59,6 +53,12 @@ img {
 
 p {
     color: #309C88;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 strong {
