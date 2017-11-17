@@ -3,7 +3,7 @@
 
 * {
     font-family: 'Playfair Display', serif;
-    color: #A637B2;
+    color: #54545;
     -webkit-align-content: center;
 }
 
@@ -17,7 +17,7 @@ html {
     opacity: 0.8;
     border-width: 2%;
     border-style: dotted;
-    border-color: #3FCCA7;
+    border-color: #A637B24;
     margin: 2em;
     padding: 3% 5%;
     background-color: rgba(161, 178, 174, 0.3);
@@ -31,7 +31,8 @@ h1 {
     text-align: center;
     font-family: 'Rozha One', serif;
     font-size: 4em;
-    text-shadow: 2px 2px #454545;
+    text-shadow: 2px 1px #934166;
+    color: #454545;
 }
 
 h2 {
@@ -39,12 +40,14 @@ h2 {
     padding: 2% 0%;
     font-family: 'Rozha One', serif;
     font-size: 2.5em;
+    color: #2a9d8e;
 }
 
 h3 {
     font-family: 'Rozha One', serif;
     padding: 0;
     margin: 0.5em 0em;
+    color: #934166;
 }
 
 img {
@@ -53,7 +56,7 @@ img {
 }
 
 p {
-    color: #309C88;
+    color: #454545;
 }
 
 ul {
@@ -69,4 +72,10 @@ li {
 strong {
     font-weight: 900;
     color: #A637B2;
+}
+
+.italic {
+    font-style: italic;
+    color: #2a9d8e;
+
 }
