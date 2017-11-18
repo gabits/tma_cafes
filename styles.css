@@ -61,12 +61,11 @@ img {
 }
 
 p {
+    text-indent: 40px;
     color: #454545;
 }
 
 .cafe-description {
-    column-count: 2;
-    column-gap: 2em;
     text-align: justify;
 }
 
