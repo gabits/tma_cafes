@@ -59,6 +59,11 @@ p {
     color: #454545;
 }
 
+.cafe-description {
+    column-count: 3;
+    text-align: justify;
+}
+
 ul {
     margin: 0em;
     padding: 1em 0em;
