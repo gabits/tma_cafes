@@ -5,6 +5,7 @@
     -webkit-align-content: center;
     font-family: 'Playfair Display', serif;
     font-weight: 200;
+    color: #454545;
 }
 
 html {
@@ -51,7 +52,7 @@ h2 {
 h3 {
     font-family: 'Rozha One', serif;
     padding: 0;
-    margin: 0.5em 0em;
+    margin: 1.5em 0em 0.5em;
     color: #934166;
 }
 
@@ -71,7 +72,7 @@ p {
 
 ul {
     margin: 0em;
-    padding: 1em 0em;
+    padding: 0em;
 }
 
 li {
