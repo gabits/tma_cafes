@@ -2,15 +2,16 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display');
 
 * {
-    font-family: 'Playfair Display', serif;
-    color: #54545;
     -webkit-align-content: center;
+    font-family: 'Playfair Display', serif;
+    font-weight: 200;
 }
 
 html {
-    background-color: #F5CF7A;
+    background-color: #d9dea7;
     margin: 2% 12%;
     padding: 1% 3%;
+    color: #54545;
 }
 
 .cafe {
@@ -20,7 +21,7 @@ html {
     border-color: #A637B24;
     margin: 2em;
     padding: 3% 5%;
-    background-color: rgba(161, 178, 174, 0.3);
+    background-color: rgba(234, 210, 106, 0.3);
 }
 
 .cafe:hover {
@@ -30,9 +31,12 @@ html {
 h1 {
     text-align: center;
     font-family: 'Rozha One', serif;
-    font-size: 4em;
-    text-shadow: 2px 1px #934166;
+    font-size: 6em;
+    text-shadow: 1px 1px #934166;
     color: #454545;
+    font-variant: all-petite-caps;
+    padding: 0em;
+    margin: 0em;
 }
 
 h2 {
@@ -40,6 +44,7 @@ h2 {
     padding: 2% 0%;
     font-family: 'Rozha One', serif;
     font-size: 2.5em;
+    text-shadow: 1px 1px #ababab;
     color: #2a9d8e;
 }
 
@@ -60,7 +65,8 @@ p {
 }
 
 .cafe-description {
-    column-count: 3;
+    column-count: 2;
+    column-gap: 2em;
     text-align: justify;
 }
 
@@ -82,5 +88,6 @@ strong {
 .italic {
     font-style: italic;
     color: #2a9d8e;
+    font-weight: 500;
 
 }
