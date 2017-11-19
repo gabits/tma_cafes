@@ -2,97 +2,130 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display');
 
 * {
-    padding: 0;         /* Resetting browse's defaults */
-    margin: 0;          /* Resetting browse's defaults */
-    -webkit-align-content: center;
+    /* Spacing */
+    padding: 0;         /* Resetting browser defaults */
+    margin: 0;          /* Resetting browser defaults */
+
+    /* Font */
     font-family: 'Playfair Display', serif;
     font-weight: 200;
-    color: #454545;
-}
-
-html {
-    background-color: #d1d7a6;
-    margin: 1% 10%;
-    padding: 1% 3%;
     color: #54545;
 }
 
-main {
+html {
+    /* Structure */
+    margin: 1% 10%;
+    padding: 1% 3%;
     max-width: 1200px;
+
+    /* Styling */
+    background-color: #e3dfb5;
+}
+
+main {
+    /* Alignment */
     margin: 0 auto;
 }
 
 .cafe {
-    opacity: 0.8;
+    /* Spacing */
+    margin: 2em;
+    padding: 3% 5%;
+
+    /* Border */
     border-width: 2%;
     border-style: dotted;
     border-color: #A637B24;
-    margin: 2em;
-    padding: 3% 5%;
+
+    /* Styling */
+    opacity: 0.8;
     background-color: rgba(194, 184, 165, 0.3);
 }
 
 .cafe:hover {
+    /* Styling */
     opacity: 1;
 }
 
 h1 {
+    /* Alignment */
     text-align: center;
-    font-family: 'Rozha One', serif;
-    font-size: 6em;
-    text-shadow: 1px 1px #934166;
-    color: #454545;
-    font-variant: all-petite-caps;
+
+    /* Spacing */
     padding: 0em;
     margin: 0em;
+
+    /* Font */
+    font-family: 'Rozha One', serif;
+    font-variant: all-petite-caps;          /* All in small uppercase */
+    font-size: 6em;
+    color: #454545;
+    text-shadow: 1px 1px #934166;
 }
 
 h2 {
+    /* Spacing */
     margin: 0%;
     padding: 2% 0%;
+
+    /* Font */
     font-family: 'Rozha One', serif;
     font-size: 2.5em;
-    text-shadow: 1px 1px #ababab;
     color: #2a9d8e;
+    text-shadow: 1px 1px #ababab;
 }
 
 h3 {
-    font-family: 'Rozha One', serif;
+    /* Spacing */
     padding: 0;
-    margin: 1.5em 0em 0.5em;
+    margin: 1.5em 0 0.5em;
+
+    /* Font */
+    font-family: 'Rozha One', serif;
     color: #934166;
 }
 
 img {
+    /* Resizing */
     width: 100%;
     height: auto;
 }
 
 p {
+    /* Font */
     text-indent: 40px;
-    color: #454545;
+
+    /* Spacing */
+    margin: 1em 0;
 }
 
 .cafe-description {
+    /* Structure */
     text-align: justify;
 }
 
 ul {
+    /* Spacing */
     margin: 0em;
     padding: 0em;
 }
 
 ul li {
+    /* Spacing */
     margin: 0.5em 1.5em;
+
+    /* List indicators */
     list-style-type: square;
 }
 
 strong {
+    /* Font */
     font-weight: 900;
     color: #A637B2;
 }
 
 .italic {
+    /* Font */
     font-style: italic;
     color: #2a9d8e;
     font-weight: 500;
@@ -100,6 +133,7 @@ strong {
 }
 
 b {
+    /* Font */
     font-weight: 900;
     color: #2a9d8e;
 }
