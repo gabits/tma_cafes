@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display');
 
 * {
+    padding: 0;         /* Resetting browse's defaults */
+    margin: 0;          /* Resetting browse's defaults */
     -webkit-align-content: center;
     font-family: 'Playfair Display', serif;
     font-weight: 200;
