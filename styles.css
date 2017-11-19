@@ -9,7 +9,7 @@
     /* Font */
     font-family: 'Playfair Display', serif;
     font-weight: 200;
-    font-size: 12px;
+    font-size: 1em;
     color: #54545;
 }
 
@@ -59,7 +59,7 @@ h1 {
     /* Font */
     font-family: 'Rozha One', serif;
     font-variant: all-petite-caps;          /* All in small uppercase */
-    font-size: 54px;
+    font-size: 6em;
     color: #454545;
     text-shadow: 1px 1px #934166;
 }
@@ -71,7 +71,7 @@ h2 {
 
     /* Font */
     font-family: 'Rozha One', serif;
-    font-size: 28px;
+    font-size: 2.5em;
     color: #2a9d8e;
     text-shadow: 1px 1px #ababab;
 }
@@ -83,7 +83,6 @@ h3 {
 
     /* Font */
     font-family: 'Rozha One', serif;
-    font-size: 18px;
     color: #934166;
 }
 
